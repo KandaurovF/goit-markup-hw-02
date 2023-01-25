@@ -1,0 +1,110 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+
+  --hero-text-color: #ffffff;
+  --headings-color: #2e2f42;
+  --body-text-color: #434455;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =============== COMPONENTS ============ */
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-secondary-color {
+  color: var(--primary-brand);
+}
+
+/* ================ HEADER =============== */
+
+.nav-page {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--headings-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--pressed-state);
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--pressed-state);
+}
+
+/* ================= HERO ================= */
+.hero-heading {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* color: var(--hero-text-color); */
+}
+
+.hero-btn {
+  background-color: var(--primary-brand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--hero-text-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--pressed-state);
+}
+
+/* =================== PORTFOLIO =================== */
+
+.filter-btn {
+  background-color: var(--primary-brand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--hero-text-color);
+}
+
+.filter-btn:hover,
+.filter_btn:focus {
+  background-color: var(--pressed-state);
+}
